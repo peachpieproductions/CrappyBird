@@ -19,7 +19,9 @@ public class Car : MonoBehaviour {
         if (left) {
             transform.position = C.rightSpawn.position;
             rb.velocity = Vector2.left * 3;
-            spr.flipX = true;
+            //spr.flipX = true;
+            var sca = transform.localScale;
+            sca.x *= -1; transform.localScale = sca;
         } else {
             transform.position = C.leftSpawn.position;
             rb.velocity = Vector2.right;
@@ -39,12 +41,13 @@ public class Car : MonoBehaviour {
                 exploded = true;
                 rb.isKinematic = false;
                 rb.velocity = Vector3.up * 8;
+                rb.angularVelocity = Random.Range(-10, 10);
                 spr.color = Color.HSVToRGB(0,0,.1f);
                 var inst = Instantiate(C.c.explosionPrefab,transform.position + Vector3.back,Quaternion.identity);
                 inst.GetComponent<Rigidbody2D>().velocity = Vector2.left;
-                inst.GetComponent<Rigidbody2D>().angularVelocity = Random.Range(-10,10);
                 Destroy(inst, 4f);
-                Destroy(collision.gameObject, .3f);
+                Destroy(collision.gameObject, .2f);
+                transform.GetChild(0).GetComponent<ParticleSystem>().Play();
             }
         }
     }
