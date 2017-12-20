@@ -7,6 +7,7 @@ public class Car : MonoBehaviour {
     bool left;
     Rigidbody2D rb;
     SpriteRenderer spr;
+    bool exploded;
 
 	// Use this for initialization
 	void Start () {
@@ -30,4 +31,22 @@ public class Car : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.transform.CompareTag("Poop")) {
+            if (!exploded) {
+                C.c.PlaySound(1);
+                exploded = true;
+                rb.isKinematic = false;
+                rb.velocity = Vector3.up * 8;
+                spr.color = Color.HSVToRGB(0,0,.1f);
+                var inst = Instantiate(C.c.explosionPrefab,transform.position + Vector3.back,Quaternion.identity);
+                inst.GetComponent<Rigidbody2D>().velocity = Vector2.left;
+                inst.GetComponent<Rigidbody2D>().angularVelocity = Random.Range(-10,10);
+                Destroy(inst, 4f);
+                Destroy(collision.gameObject, .3f);
+            }
+        }
+    }
+
 }

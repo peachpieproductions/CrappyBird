@@ -18,6 +18,12 @@ public class Birb : MonoBehaviour {
             rb.velocity = new Vector2(0, 6);
         }
 
+        if (Input.GetMouseButtonDown(0)) {
+            var inst = Instantiate(C.c.poopPrefab, transform.position + Vector3.down * .5f, Quaternion.identity);
+            inst.GetComponent<Rigidbody2D>().velocity = Vector2.right * 2;
+            C.c.PlaySound(0);
+        }
+
         transform.eulerAngles = new Vector3(0, 0, rb.velocity.y*5);
 	}
 }

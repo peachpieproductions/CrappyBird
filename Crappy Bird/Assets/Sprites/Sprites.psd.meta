@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: cfba4461c2e287b4695c527bcc529167
-timeCreated: 1513704376
+timeCreated: 1513731755
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -18,6 +18,7 @@ TextureImporter:
     21300022: Sprites_11
     21300024: Sprites_12
     21300026: Sprites_13
+    21300028: Sprites_14
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -281,6 +282,20 @@ TextureImporter:
         y: 273
         width: 64
         height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 234
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
