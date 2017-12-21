@@ -8,9 +8,11 @@ public class Car : MonoBehaviour {
     Rigidbody2D rb;
     SpriteRenderer spr;
     bool exploded;
+    bool hasCollider = true;
+    float carHitSndTimer;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         rb = GetComponent<Rigidbody2D>();
         spr = GetComponent<SpriteRenderer>();
         spr.sprite = C.c.carSprites[Random.Range(0,C.c.carSprites.Length)];
@@ -31,7 +33,16 @@ public class Car : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (exploded) {
+            if (transform.position.y > -2.2f) {
+                if (hasCollider) {
+                    hasCollider = false;
+                    if (Random.value > .25f)
+                        Destroy(GetComponent<Collider2D>());
+                }
+            }
+        }
+        if (carHitSndTimer > 0) carHitSndTimer -= Time.deltaTime;
 	}
 
     private void OnCollisionEnter2D(Collision2D collision) {
@@ -39,6 +50,7 @@ public class Car : MonoBehaviour {
             if (!exploded) {
                 C.c.PlaySound(1);
                 exploded = true;
+                Invoke("SetLayerToDestroyed", .5f); //delayed so that poop flips car correctly
                 rb.isKinematic = false;
                 rb.velocity = Vector3.up * 8;
                 rb.angularVelocity = Random.Range(-10, 10);
@@ -46,10 +58,18 @@ public class Car : MonoBehaviour {
                 var inst = Instantiate(C.c.explosionPrefab,transform.position + Vector3.back,Quaternion.identity);
                 inst.GetComponent<Rigidbody2D>().velocity = Vector2.left;
                 Destroy(inst, 4f);
-                Destroy(collision.gameObject, .2f);
                 transform.GetChild(0).GetComponent<ParticleSystem>().Play();
             }
+        } else {
+            if (carHitSndTimer <= 0) {
+                carHitSndTimer = .25f;
+                C.c.PlaySound(6, Mathf.Min(.5f, collision.relativeVelocity.magnitude * .1f));
+            }
         }
+    }
+
+    void SetLayerToDestroyed() { //delayed function so that poop flips car correctly
+        gameObject.layer = 11;
     }
 
 }

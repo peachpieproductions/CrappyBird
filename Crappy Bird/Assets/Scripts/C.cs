@@ -12,7 +12,9 @@ public class C : MonoBehaviour {
 
     public static C c;
     public GameObject carPrefab;
+    public GameObject heliPrefab;
     public GameObject poopPrefab;
+    public GameObject poopSplatPrefab;
     public GameObject explosionPrefab;
     public static Transform leftSpawn;
     public static Transform rightSpawn;
@@ -28,7 +30,7 @@ public class C : MonoBehaviour {
 
         AS = gameObject.AddComponent<AudioSource>();
 
-        InvokeRepeating("SpawnCar", 0f, 5f);
+        InvokeRepeating("SpawnCar", 0f, 2f);
     }
 
     // Update is called once per frame
@@ -38,14 +40,15 @@ public class C : MonoBehaviour {
 
     void SpawnCar() {
         Instantiate(carPrefab);
+        if (Random.value < .1f) Instantiate(heliPrefab,new Vector3(-12,Random.Range(-2,5),0),Quaternion.identity);
     }
 
-    public void PlaySound(int index) {
+    public void PlaySound(int index, float vol = 1) {
         if (snds[index].pitchChange) {
             AS.pitch = Random.Range(.8f, 1.2f);
         }
         else AS.pitch = 1;
-        AS.PlayOneShot(snds[index].ac);
+        AS.PlayOneShot(snds[index].ac,vol);
     }
 
 }

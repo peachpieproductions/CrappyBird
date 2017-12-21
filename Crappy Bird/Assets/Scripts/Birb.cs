@@ -16,6 +16,7 @@ public class Birb : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.Space)) {
             rb.velocity = Vector3.zero;
             rb.velocity = new Vector2(0, 6);
+            C.c.PlaySound(5);
         }
 
         if (Input.GetMouseButtonDown(0)) {

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: cfba4461c2e287b4695c527bcc529167
-timeCreated: 1513731755
+timeCreated: 1513808076
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -19,6 +19,14 @@ TextureImporter:
     21300024: Sprites_12
     21300026: Sprites_13
     21300028: Sprites_14
+    21300030: Sprites_15
+    21300032: Sprites_16
+    21300034: Sprites_17
+    21300036: Sprites_18
+    21300038: Sprites_19
+    21300040: Sprites_20
+    21300042: Sprites_21
+    21300044: Sprites_22
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -75,7 +83,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -84,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,8 +132,8 @@ TextureImporter:
       name: Sprites_2
       rect:
         serializedVersion: 2
-        x: 11
-        y: 594
+        x: 203
+        y: 658
         width: 74
         height: 27
       alignment: 0
@@ -138,8 +146,8 @@ TextureImporter:
       name: Sprites_3
       rect:
         serializedVersion: 2
-        x: 107
-        y: 594
+        x: 299
+        y: 658
         width: 74
         height: 27
       alignment: 0
@@ -152,8 +160,8 @@ TextureImporter:
       name: Sprites_4
       rect:
         serializedVersion: 2
-        x: 21
-        y: 531
+        x: 404
+        y: 659
         width: 56
         height: 34
       alignment: 0
@@ -166,8 +174,8 @@ TextureImporter:
       name: Sprites_5
       rect:
         serializedVersion: 2
-        x: 117
-        y: 531
+        x: 500
+        y: 659
         width: 56
         height: 34
       alignment: 0
@@ -180,8 +188,8 @@ TextureImporter:
       name: Sprites_6
       rect:
         serializedVersion: 2
-        x: 20
-        y: 466
+        x: 595
+        y: 658
         width: 61
         height: 27
       alignment: 0
@@ -194,8 +202,8 @@ TextureImporter:
       name: Sprites_7
       rect:
         serializedVersion: 2
-        x: 116
-        y: 466
+        x: 691
+        y: 658
         width: 61
         height: 27
       alignment: 0
@@ -208,8 +216,8 @@ TextureImporter:
       name: Sprites_8
       rect:
         serializedVersion: 2
-        x: 13
-        y: 403
+        x: 779
+        y: 659
         width: 69
         height: 29
       alignment: 0
@@ -222,8 +230,8 @@ TextureImporter:
       name: Sprites_9
       rect:
         serializedVersion: 2
-        x: 109
-        y: 403
+        x: 875
+        y: 659
         width: 69
         height: 29
       alignment: 0
@@ -237,7 +245,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 17
-        y: 336
+        y: 592
         width: 64
         height: 32
       alignment: 0
@@ -251,7 +259,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 113
-        y: 336
+        y: 592
         width: 64
         height: 32
       alignment: 0
@@ -264,8 +272,8 @@ TextureImporter:
       name: Sprites_12
       rect:
         serializedVersion: 2
-        x: 16
-        y: 273
+        x: 208
+        y: 593
         width: 64
         height: 28
       alignment: 0
@@ -278,8 +286,8 @@ TextureImporter:
       name: Sprites_13
       rect:
         serializedVersion: 2
-        x: 112
-        y: 273
+        x: 304
+        y: 593
         width: 64
         height: 28
       alignment: 0
@@ -292,10 +300,122 @@ TextureImporter:
       name: Sprites_14
       rect:
         serializedVersion: 2
+        x: 13
+        y: 530
+        width: 73
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 530
+        width: 73
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 530
+        width: 73
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 530
+        width: 73
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_18
+      rect:
+        serializedVersion: 2
         x: 43
         y: 234
         width: 10
         height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 234
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 235
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 236
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 237
+        width: 17
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
