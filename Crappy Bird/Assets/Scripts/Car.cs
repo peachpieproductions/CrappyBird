@@ -20,13 +20,12 @@ public class Car : MonoBehaviour {
         if (Random.value > .5f) left = true;
         if (left) {
             transform.position = C.rightSpawn.position;
-            rb.velocity = Vector2.left * 3;
-            //spr.flipX = true;
+            rb.velocity = Vector2.left * (C.c.scrollSpeed + 2);
             var sca = transform.localScale;
             sca.x *= -1; transform.localScale = sca;
         } else {
             transform.position = C.leftSpawn.position;
-            rb.velocity = Vector2.right;
+            rb.velocity = Vector2.right * (C.c.scrollSpeed - 1);
             spr.sortingOrder = 1;
         }
 	}
@@ -58,7 +57,10 @@ public class Car : MonoBehaviour {
                 var inst = Instantiate(C.c.explosionPrefab,transform.position + Vector3.back,Quaternion.identity);
                 inst.GetComponent<Rigidbody2D>().velocity = Vector2.left;
                 Destroy(inst, 4f);
-                transform.GetChild(0).GetComponent<ParticleSystem>().Play();
+                var partSys = transform.GetChild(0).GetComponent<ParticleSystem>();
+                partSys.Play();
+                var vol = partSys.velocityOverLifetime;
+                vol.x = -C.c.scrollSpeed;
             }
         } else {
             if (carHitSndTimer <= 0) {

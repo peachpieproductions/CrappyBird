@@ -11,6 +11,7 @@ public struct sound {
 public class C : MonoBehaviour {
 
     public static C c;
+    public float scrollSpeed;
     public GameObject carPrefab;
     public GameObject heliPrefab;
     public GameObject poopPrefab;
@@ -29,6 +30,13 @@ public class C : MonoBehaviour {
         rightSpawn = GameObject.Find("RSpawn").transform;
 
         AS = gameObject.AddComponent<AudioSource>();
+
+        //Duplicate Tiling Backgrounds
+        var scenery = GameObject.Find("Scenery").transform;
+        for (var i = 0; i < scenery.childCount; i++) {
+            var width = scenery.GetChild(i).GetChild(0).GetComponent<SpriteRenderer>().bounds.size.x;
+            Instantiate(scenery.GetChild(i), scenery.GetChild(i).position + new Vector3(width * .95f,0,0), Quaternion.identity);
+        }
 
         InvokeRepeating("SpawnCar", 0f, 2f);
     }
