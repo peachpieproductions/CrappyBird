@@ -1,0 +1,649 @@
+fileFormatVersion: 2
+guid: b709df5900aebbd40ba20dcb2a40d6cc
+timeCreated: 1514676420
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hats_0
+    21300002: Hats_1
+    21300004: Hats_2
+    21300006: Hats_3
+    21300008: Hats_4
+    21300010: Hats_5
+    21300012: Hats_6
+    21300014: Hats_7
+    21300016: Hats_8
+    21300018: Hats_9
+    21300020: Hats_10
+    21300022: Hats_11
+    21300024: Hats_12
+    21300026: Hats_13
+    21300028: Hats_14
+    21300030: Hats_15
+    21300032: Hats_16
+    21300034: Hats_17
+    21300036: Hats_18
+    21300038: Hats_19
+    21300040: Hats_20
+    21300042: Hats_21
+    21300044: Hats_22
+    21300046: Hats_23
+    21300048: Hats_24
+    21300050: Hats_25
+    21300052: Hats_26
+    21300054: Hats_27
+    21300056: Hats_28
+    21300058: Hats_29
+    21300060: Hats_30
+    21300062: Hats_31
+    21300064: Hats_32
+    21300066: Hats_33
+    21300068: Hats_34
+    21300070: Hats_35
+    21300072: Hats_36
+    21300074: Hats_37
+    21300076: Hats_38
+    21300078: Hats_39
+    21300080: Hats_40
+    21300082: Hats_41
+    21300084: Hats_42
+    21300086: Hats_43
+    21300088: Hats_44
+    21300090: Hats_45
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hats_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 395
+        width: 78
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4964028, y: 0.2469267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 390
+        width: 56
+        height: 51
+      alignment: 9
+      pivot: {x: 0.53083664, y: 0.24746226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 403
+        width: 44
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5095291, y: 0.15672725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 413
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.490654, y: 0.28834534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 343
+        width: 55
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2949379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_6
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 346
+        width: 74
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5169973, y: 0.20564169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 335
+        width: 44
+        height: 32
+      alignment: 9
+      pivot: {x: 0.50952876, y: 0.008658669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 337
+        width: 62
+        height: 39
+      alignment: 9
+      pivot: {x: 0.6081981, y: 0.45699838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 314
+        width: 40
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46855497, y: 0.24045381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 306
+        width: 66
+        height: 39
+      alignment: 9
+      pivot: {x: 0.47172984, y: 0.21456283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 288
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.6214631, y: 0.051901817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 292
+        width: 61
+        height: 45
+      alignment: 9
+      pivot: {x: 0.49312654, y: 0.42546386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 284
+        width: 68
+        height: 46
+      alignment: 9
+      pivot: {x: 0.41984603, y: 0.11719148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 269
+        width: 58
+        height: 35
+      alignment: 9
+      pivot: {x: 0.49891517, y: 0.06455427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 262
+        width: 57
+        height: 34
+      alignment: 9
+      pivot: {x: 0.50845927, y: 0.073313996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_18
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 241
+        width: 53
+        height: 45
+      alignment: 9
+      pivot: {x: 0.444625, y: 0.6118049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 206
+        width: 65
+        height: 53
+      alignment: 9
+      pivot: {x: 0.50645024, y: 0.15984014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 203
+        width: 60
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5451335, y: 0.43119386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_22
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 238
+        width: 52
+        height: 32
+      alignment: 9
+      pivot: {x: 0.49976084, y: 0.09760523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_23
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 228
+        width: 63
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.29464504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 162
+        width: 54
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5741464, y: 0.5003614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_26
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 179
+        width: 47
+        height: 41
+      alignment: 9
+      pivot: {x: 0.4821589, y: 0.14208947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 148
+        width: 61
+        height: 44
+      alignment: 9
+      pivot: {x: 0.47628585, y: 0.25890663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 148
+        width: 55
+        height: 56
+      alignment: 9
+      pivot: {x: 0.491233, y: 0.07808685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_29
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 181
+        width: 40
+        height: 13
+      alignment: 9
+      pivot: {x: 0.48920745, y: -0.93437076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_31
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 106
+        width: 66
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5130821, y: 0.11146126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_32
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 151
+        width: 30
+        height: 35
+      alignment: 9
+      pivot: {x: 0.86336464, y: 0.116670445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_33
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 113
+        width: 54
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5319785, y: 0.24729174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 125
+        width: 70
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2448987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 145
+        width: 54
+        height: 26
+      alignment: 9
+      pivot: {x: 0.50000054, y: -0.081148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 111
+        width: 54
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08268077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_38
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 109
+        width: 54
+        height: 29
+      alignment: 9
+      pivot: {x: 0.49200553, y: 0.15761013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 55
+        width: 49
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4911896, y: 0.068290435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_41
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 15
+        width: 56
+        height: 87
+      alignment: 9
+      pivot: {x: 0.6079276, y: 0.6637523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_42
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 77
+        width: 48
+        height: 34
+      alignment: 9
+      pivot: {x: 0.48201242, y: 0.11907959}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_43
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 59
+        width: 51
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5169301, y: 0.1630556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hats_44
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 9
+        width: 22
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46075362, y: 0.030198209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

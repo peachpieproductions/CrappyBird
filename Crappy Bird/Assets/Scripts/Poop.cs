@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Poop : MonoBehaviour {
 
+    public GameObject owner;
+
 	// Use this for initialization
 	void Start () {
 		

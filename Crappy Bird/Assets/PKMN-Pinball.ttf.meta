@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f4b28b7576d130b4db7c3b7df12d37fe
+timeCreated: 1515107511
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PKMN Pinball
+  fontNames:
+  - PKMN Pinball
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
